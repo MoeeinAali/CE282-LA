@@ -1,9 +1,9 @@
-# CE{Code of Course}-{Short Name of Course}
-Solutions to Prof. {Name of Prof}'s CE{Code of Course}: {Full Name of Course} ({Name of Uni} - {Semester} {Year}) Assignments
+# CE282-LA
+Solutions to Prof. Rabiee and Dr. Ramezani's CE282: Linear Algebra (Sharif University of Technology - Spring 2024)
 
 ## Overview
 
-This repository contains solutions to the assignments for the CE{Code of Course}: {Full Name of Course} course at the {Name of Uni}, {Semester} {Year}, taught by Prof. {Name of Prof}.
+This repository contains solutions to the assignments for the CE282: Linear Algebra course at the Sharif University of Technology, Spring 2024, taught by Prof. Rabiee and Dr. Ramezani.
 
 ## Table of Contents
 
