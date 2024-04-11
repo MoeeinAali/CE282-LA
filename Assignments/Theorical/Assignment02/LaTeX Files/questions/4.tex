@@ -1,0 +1,112 @@
+برای این‌که یک تابع ضرب داخلی در فضای
+$R^n$
+باشد، باید دارای ویژگی‌هایی باشد که در موارد زیر می‌بینیم:
+\subsection*{الف}
+
+این گزاره \underline{\textbf{نادرست}} است.
+برای آن یک مثال نقض می‌زنیم که ویژگی 
+$<u+v,w>=<u,w>+<v,w>$
+را نقض کند:
+\setLTR
+
+$\begin{cases}
+	
+u=(-1,1),v=(2,2) \rightarrow u+v=(1,3)\\
+
+w=(3,3)
+\end{cases}\longrightarrow$
+$\begin{cases}
+<u+v,w>=|3|+|9| = 12 \\
+<u,w>+<v,w>=|-3|+|3| + |6|+|6| = 18
+\end{cases}$
+\setRTL
+
+\subsection*{ب}
+این گزاره \underline{\textbf{نادرست}} است.
+برای آن یک مثال نقض می‌زنیم که ویژگی 
+$<v,v>=0  \Longleftrightarrow v=0$
+را نقض کند:
+
+\setLTR
+$
+\begin{cases}
+	u=(0,1,0) \\ v=(0,1,0)
+\end{cases}\longrightarrow
+\begin{cases}
+	u \neq 0 \\ v \neq 0 \\ <u,v> = 0 + 0 = 0
+\end{cases}
+$
+\setRTL
+
+\subsection*{ج}
+این گزاره \underline{\textbf{درست}} است.
+برای اثبات آن، هر 5 ویژگی ضرب داخلی بودن را اثبات می‌کنیم:
+
+\setLTR
+
+\begin{enumerate}
+	\item $<v,v>=0 \Longleftrightarrow v=0$
+		\begin{itemize}
+			\item $v=(v_{1},v_{2}) \rightarrow <v,v>=v_{1}^2+v_{2}^2=0\rightarrow \begin{cases}
+				v_{1}^2=0 \rightarrow v_{1}=0 \\ v_{2}^2=0 \rightarrow v_{2}=0
+			\end{cases}\longrightarrow v=(0,0)=\overrightarrow{O}$
+			
+			\item $v=(0,0)\rightarrow <v,v>=0\times0 + 0\times0 = 0$
+		\end{itemize}
+	\item $<u,v>=<v,u>$
+		\begin{itemize}
+			\item 	$<u,v>=u_{1}v_{1}+u_{2}v_{2}=v_{1}u_{1}+v_{2}u_{2}=<v,u>$
+		\end{itemize}
+	\item $<u+v,w>=<u,w>+<v,w>$
+	\begin{itemize}
+		\item $<u+v,w>=(u_{1}+v_{1})w_{1}+(u_{2}+v_{2})w_{2}=u_{1}w_{1}+v_{1}w_{1}+u_{2}w_{2}+v_{2}w_{2}$
+		\item $<u,w>+<v,w>=u_{1}w_{1}+u_{2}w_{2}+v_{1}w_{1}+v_{2}w_{2}=u_{1}w_{1}+v_{1}w_{1}+u_{2}w_{2}+v_{2}w_{2}$
+	\end{itemize}
+	\item $<cu,w>=c<u,w>$
+	\begin{itemize}
+		\item $u=(u_1,u_2)\rightarrow cu=c(u_1,u_2)=(cu_1,cu_2)$
+		\item $<cu,w>=cu_{1}w_{1}+cu_{2}w_{2}=c(u_{1}w_{1}+u_{2}w_{2})=c<u,w>$
+	\end{itemize}
+	\item $<v,v> \geq 0$
+	\begin{itemize}
+		\item $v=(v_1,v_2)$
+		\item $<v,v>=v_1^2+v_2^2 \xrightarrow[v_{2}^2\geq0]{v_{1}^2\geq0}<v,v>\geq 0$
+	\end{itemize}
+\end{enumerate}
+
+\setRTL
+\pagebreak
+
+\subsection*{د}
+این گزاره \underline{\textbf{درست}} است.
+برای اثبات آن، هر 5 ویژگی ضرب داخلی بودن را اثبات می‌کنیم:
+
+\setLTR
+
+\begin{enumerate}
+	\item  $<A,A>=0 \Longleftrightarrow A=0$
+	\begin{itemize}
+		\item $A=0\rightarrow A^TA=0\rightarrow tr(0)=0$
+		\item $<A,A>=tr(A^TA)=\sum^{n}_{i=1}a_{ii}^2 + \sum_{i\neq j}^{}a_{ij}^2=0 \rightarrow
+		\text{مجذور همه درایه‌ برابر صفر } \rightarrow A=0$
+	\end{itemize}
+	\item $<A,B>=<B,A>$
+	\begin{itemize}
+		\item $<A,B>=tr(B^TA)=\sum_{i,j}^{}a_{ij}b_{ij}=\sum_{i,j}^{}b_{ij}a_{ij}=tr(A^TB)=<B,A>$
+	\end{itemize}
+	\item $<A+B,C>=<A,C>+<B,C>$
+	\begin{itemize}
+		\item $<A+B,C>=tr(C^T(A+B))=tr(C^TA+C^TB)$
+		
+		$\qquad \qquad \quad=tr(C^TA)+tr(C^TB)=(<A,c>+<B,C>)$
+	\end{itemize}
+	
+	\item $<cA,B>=c<A,B>$
+	\begin{itemize}
+		\item $<cA,B>=tr(B^T(cA))=tr(cB^TA)=c\times tr(B^TA)=c<A,B>$
+	\end{itemize}
+	\item  $<A,A> \geq 0$
+	\begin{itemize}
+		\item $<A,A> = tr(A^TA)=\sum_{i\neq j}a^2_{ij} + \sum_{i=1}^{n}a^2_{ii} \ge 0$
+	\end{itemize}
+\end{enumerate}
