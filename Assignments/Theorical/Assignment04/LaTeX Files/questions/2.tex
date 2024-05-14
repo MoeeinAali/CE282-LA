@@ -1,0 +1,34 @@
+\begin{flalign*}
+	&\langle f(x) , g(x) \rangle = \int_{0}^{1} f(x).g(x) \ dx &&
+\end{flalign*}
+
+\begin{flalign*}
+	&I = \int_{0}^{1} \sqrt[n]{xe^{mx}} \ dx \ \ ; \ \ m ,n \in \mathbb{N} &&
+\end{flalign*}
+
+می‌دانیم که نامساوی مقابل همواره برقرار است:
+\setLTR
+
+$\langle f(x),g(x) \rangle \leq \| f(x) \| \| g(x) \|$
+
+\setRTL
+
+حال فرض می‌کنیم که 
+$f(x) = \sqrt[n]{x}$
+و
+$g(x)=\sqrt[n]{xe^{mx}}$
+باشد، پس:
+
+\begin{flalign*}
+	&\int_{0}^{1} \sqrt[n]{xe^{mx}} \ dx \leq \sqrt{\int_{0}^{1} \sqrt[n]{x^2}dx \times \int_{0}^{1}\sqrt[n]{xe^{2mx}}dx} \quad \longrightarrow I \leq \sqrt{
+	(\frac{n}{n+2}x^{\frac{n+2}{n}})(\frac{n}{2m}e^{\frac{2mx}{n}})} = \sqrt{\frac{n}{n+2}\times (\frac{ne^{\frac{2m}{n}}}{2m}- \frac{n}{2m})
+	} &&
+\end{flalign*}
+
+\setLTR
+
+$\longrightarrow I \leq n\sqrt{
+\frac{e^{\frac{2m}{n}}-1}{2m(n+2)}
+}$
+
+\setRTL
