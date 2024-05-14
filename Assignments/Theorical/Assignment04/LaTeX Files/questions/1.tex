@@ -1,37 +1,93 @@
-\subsubsection*{الف}
-
-این گزاره \underline{\textbf{نادرست}} است.
-
-زیرا بردار $O$ و هر بردار دیگری بر هم عمود هستند ولی مستقل خطی نیستند!
-
-
-\subsubsection*{ب}
-
-این گزاره \underline{\textbf{درست}} است.
+\subsection*{الف}
 
 \setLTR
 
-$\begin{cases}
-	\| u - v \| ^ 2 =  (u - v)^T(u-v) = u^Tv-v^Tu+v^Tv=u^Tu-2u^Tv+v^Tv = \| u \| - 2 \langle  u,v\rangle  + \|v \| \\
-		\| u - v \| ^ 2 = 	\| u  \| ^ 2 + 	\|  v \| ^ 2
-\end{cases}$
+$Nullity\{ ABC \} = \{x|x\in N(A)\} \cup \{x|x\in N(B)\} \cup \{x|x\in N(C)\}$
+
+$
+\begin{cases}
+	
+	\{x|x\in N(A)\} \subseteq  Nullity\{ A \} \\
+	\{x|x\in N(B)\} \subseteq  Nullity\{ B \} \\
+	\{x|x\in N(C)\} \subseteq  Nullity\{ C \} 
+	
+\end{cases} \linebreak 
+ \xrightarrow[]{
+ |X| = X_1 \cup X_2 \cup X_3 \rightarrow |X| \leq |X_1|+|X_2|+|X_3|
+ } 
+ Nullity\{ ABC \} \leq Nullity\{ A \} + Nullity\{ B \} + Nullity\{ C \}
+$
 
 \setRTL
 
-پس درنتیجه
- $\| u \| + \| v \| = 0$
-  و دو بردار بر هم عمود هستند.
+\subsection*{ب}
 
-\subsubsection*{ج}
-این گزاره \underline{\textbf{درست}} است.
+طبق قضیه‌های از قبل ثابت شده می‌دانیم که:
+
+\setLTR
+	\begin{enumerate}[label=(\roman*)]
+	\item $Rank\{A^T\} = Rank{A}$
+	\item $Rank\{AB\} \leq Rank{A}$
+	\end{enumerate}
+\setRTL
+
+حال نامساوی خواسته شده را اثبات ‌می‌کنیم:
 
 \setLTR
 
-$\begin{cases}
-	\langle u-v,u-v\rangle = \| u \| ^ 2 + \| v \| ^ 2 - 2 \langle u,v\rangle \\
-	 \|v\| = \|v\| = 1 \\
-	 \langle u,v \rangle = 1
-\end{cases}  \longrightarrow  \langle u -v  , u-v \rangle = 1^2 + 1^2 -2(1) = 0 \rightarrow u - v = 0 \rightarrow u = v$
+$Rank\{AB\} = Rank\{(AB)^T\} = Rank\{B^TA^T\} \leq Rank\{B^T\} = Rank\{B\} \\ 
+\longrightarrow
+\begin{cases}
+	 Rank\{AB\} \leq Rank\{A\} \\
+	 Rank\{AB\} \leq Rank\{B\}
+\end{cases} \longrightarrow Rank\{AB\} \leq min(Rank\{A\},Rank\{B\}) \\ \\ \\
+Rank\{ABC\}  \xrightarrow[\text{اثبات بالا}]{
+	BC = D
+} Rank\{AD\} \leq min(Rank\{A\},Rank\{D\}) \\
+\xrightarrow[]{
+	Rank\{D\} \leq min(Rank\{C\},Rank\{B\})
+} 
+Rank\{ABC\} \leq min(Rank\{A\} , Rank\{B\}, Rank\{C\})
+$
+\setRTL
+
+\subsection*{پ}
+در ابتدا می‌دانیم که:
+
+\setLTR
+
+$
+\begin{cases}
+	ABC = 0 \rightarrow Nullity\{ABC\} = n \\ 
+	Nullity\{ABC\} \leq Nullity\{A\} + Nullity\{B\} + Nullity\{C\}
+\end{cases}
+$
+\setRTL
+
+همچنین:
+\setLTR
+
+$
+Rank\{A\} + Nullity\{A\} = n 
+$
+\setRTL
+
+همینطور اگر فرض کنیم که
+ $Nullity\{C\} , Nullity\{B\} \leq Nullity\{A\}$
+است، پس داریم:
+
+\setLTR
+
+$
+n \leq 3 \times Nullity\{A\} \rightarrow \frac{n}{3} \leq Nullity\{A\} \rightarrow 
+Rank(A) \leq \frac{2n}{3} \\ 
+Rank\{CBA\} \leq min(Rank\{A\},Rank\{B\},Rank\{C\}) \leq Rank\{A\} \leq \frac{2n}{3}
+$
 
 \setRTL
 
+\subsection*{ت}
+
+\textcolor{red}{
+این بخش رو باید بعدا بزنم
+}
