@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  14 MAY 2024 13:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  14 MAY 2024 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1154,7 +1154,7 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(0)/m/n' will be
 (Font)              scaled to size 5.99998pt on input line 46.
 ) [1
 
-] (./questions/2.tex) [2] (./HW.aux)
+] [2] (./questions/2.tex) [3] (./questions/3.tex) [4] (./HW.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1162,12 +1162,12 @@ Package rerunfilecheck Info: File `HW.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25405 strings out of 476683
- 481624 string characters out of 5807575
+ 25411 strings out of 476683
+ 481726 string characters out of 5807575
  1860012 words of memory out of 5000000
- 45159 multiletter control sequences out of 15000+600000
+ 45162 multiletter control sequences out of 15000+600000
  514650 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,12n,101p,1342b,395s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,101p,1342b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on HW.pdf (2 pages).
+Output written on HW.pdf (4 pages).
