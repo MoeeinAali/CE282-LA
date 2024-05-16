@@ -1,3 +1,130 @@
-\textcolor{red}{
-	این بخش رو باید بعدا بزنم
-}
+باید ثابت کنیم که:
+
+\setLTR
+$
+\exists \ S \in \mathcal{L}(V,W) \longleftrightarrow Range(T_1) = Range(T_2) \\ 
+$
+\setRTL
+
+ابتدا طرف اول را ثابت می‌کنیم. اگر S وجود داشته باشد، چون 
+$T_1 = T_2 S$
+است، پس هر عضو از 
+$Range(T_1)$
+عضو 
+$Range(T_2)$
+هم است. چون که به ازای هر 
+$u$
+دلخواه که به 
+$T_1$
+داده می	‌میشود، یک
+$v=Su$
+هم وجود دارد که به ازای آن خروجی 
+$T_2$
+با خروجی 
+$T_1$
+برابر خواهد شد. پس:
+
+\setLTR
+$
+Range(T_1) \subseteq Range(T_2)
+$
+\setRTL
+
+از آن‌جایی که 
+$S$
+معکوس‌پذیر است، پس:
+
+\setLTR
+$
+T_1 = T_2 S \longrightarrow T_1S^{-1} = T_2SS^{-1} \longrightarrow T_1S^{-1}=T_2
+$
+\setRTL
+
+پس مشابه بالا می‌توان گفت:
+
+\setLTR
+$
+Range(T_2) \subseteq Range(T_1)
+$
+\setRTL
+
+در نهایت طرف اول حکم اثبات می‌شود:
+
+\setLTR
+$
+\begin{cases}
+	Range(T_2) \subseteq Range(T_1) \\
+	Range(T_1) \subseteq Range(T_2)
+	
+\end{cases} \longrightarrow Range(T_1) = Range(T_2)
+$
+\setRTL
+
+حال طرف دیگر حکم را ثابت می‌کنیم. ما S را این‌گونه تعریف می‌کنیم که اگر 
+$e_1 , e_2 , e_3 ,...,e_n$
+پایه در 
+$T_1$
+باشد، آن‌گاه 
+$e'_1 , e'_2 , e'_3 ,...,e'_n$
+پایه در 
+$T_2$
+باشند، به طوری که:
+$Se_i=e'_i$
+
+پس در نتیجه تمامی عناصر موجود در
+$T_2$
+ساخته می‌شوند.
+
+\setLTR
+$
+\alpha \in T_2 \longrightarrow \alpha = \alpha_1e'_1 + \alpha_2e'_2 +...+\alpha_ne'_n \longrightarrow \\ \alpha_1Se_1 + ... + \alpha_nSe_n = S\alpha_1e_1 + ... + S\alpha_ne_n = S(\alpha_1e_1 + ... + \alpha_ne_n)
+$
+\setRTL
+
+یک ترکیب خطی ساخته شد که به 
+$\alpha$
+می‌رود. تبدیل 
+$S$
+وارون‌پذیر است، چون یک‌به‌یک است. یک‌به‌یک بودن را با برهان خلف ثابت می‌کنیم. فرض می‌کنیم 
+$u \neq v , S(u) = S(v)$
+باشد، پس داریم:
+
+\setLTR
+$
+S(u-v) = 0  \\ S(0) = 0
+$
+\setRTL
+
+حال باید نشان دهیم که 
+$u = v$
+تا به تناقض بخوریم.
+
+\setLTR
+$
+\begin{cases}
+S(u) = \alpha_1e'_1 , \alpha_2e'_2 , e_3 ,...,\alpha_ne'_n = S(\alpha_1e_1 + ... + \alpha_ne_n) \\
+S(v) = \beta_1e'_1 , \beta_2e'_2 , e_3 ,...,\beta_ne'_n = S(\beta_1e_1 + ... + \beta_ne_n)
+\end{cases} \rightarrow (\alpha_1-\beta_1)e'_1 + ... + (\alpha_n-\beta_n)e'_n =0
+$
+\setRTL
+
+طبق تعریف پایه بودن 
+$e'_1 , ... , e'_n$
+، پس ضرایب برابر صفر هستند و در نتیجه:
+
+\setLTR
+$
+\alpha_i - \beta_i =0 \longrightarrow \alpha_i = \beta_i \longrightarrow u = v
+$
+\setRTL
+
+
+
+
+
+
+
+
+
+
+

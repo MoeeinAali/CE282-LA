@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  15 MAY 2024 12:54
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  16 MAY 2024 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1159,8 +1159,12 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(0)/m/n' will be
 (Font)              scaled to size 9.59998pt on input line 97.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
 (Font)              scaled to size 9.59998pt on input line 97.
-) [4] (./questions/4.tex)
-[5] (./questions/5.tex
+) [4] (./questions/4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[][]
+ []
+
+) [5] (./questions/5.tex
 Overfull \hbox (40.66031pt too wide) in paragraph at lines 25--53
 []$[]$ []
  []
