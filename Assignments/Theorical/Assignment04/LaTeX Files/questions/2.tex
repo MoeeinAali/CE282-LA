@@ -1,3 +1,62 @@
-\textcolor{red}{
-	این بخش رو باید بعدا بزنم
-}
+\subsubsection*{الف}
+ابتدا می‌دانیم که:
+
+\setLTR
+$
+u \notin Null(\varphi) \xrightarrow[]{\alpha \neq 0} \alpha u \notin Null(\varphi) \longrightarrow Null(\varphi) \cap \{ \alpha u : \alpha \in F \} = \{0\}
+$
+\setRTL
+
+حال با توجه به این که
+$\varphi : V \rightarrow F$
+، 
+باید اثبات کنیم که کل فضای 
+$V$
+را پوشش می‌دهد.
+
+\setLTR
+$
+\begin{cases}
+	dim(V) = n \\
+	dim(im(\varphi)) = 1 \\
+	dim(V) = dim(Null(\varphi)) + dim(im(\varphi))
+\end{cases} \longrightarrow dim(Null(\varphi)) = n - 1
+$
+\setRTL
+
+پس ما فقط یک 
+$u$
+داریم که به
+$ّF$
+می‌رود و بقیه عضو 
+$Null(\varphi)$
+هستند. پس:
+
+\setLTR
+$
+V = Null(\varphi) \oplus \{ \alpha u : \alpha \in F \}
+$
+\setRTL
+
+\subsubsection*{ب}
+ابتدا طرف اول حکم را ثابت می‌کنیم، می‌دانیم که 
+$
+A_{j,k} = c_jd_k
+$
+است، پس هر سطر از ماتریس زیر، مضربی از یک سطر دیگر است. پس در نتیجه:
+
+\setLTR
+$A = \begin{bmatrix}
+	c_1d_1 & c_1d_2 & \hdots & c_1d_n \\
+	\vdots & \vdots & \hdots & \vdots \\
+	c_nd_1 & c_nd_2 & \hdots & c_nd_n 
+\end{bmatrix} \longrightarrow Rank(A) = 1$
+\setRTL
+
+حال اگر 
+$Rank(A) = 1$
+باشد، باید ثابت کنیم که 
+$A_{j,k} = c_jd_k$
+است. چون 
+$Rank(A) = 1$
+برابر 1 است، پس با انجام عملیات rref باید فقط یک سطر باقی بماند، این یعنی که سطرها مضرب یکدیگر هستند و حکم ثابت می‌شود.

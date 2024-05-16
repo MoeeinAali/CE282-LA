@@ -1,25 +1,53 @@
 \subsection*{الف}
 
+
+اگر A یک ماتریس mدرn و B یک ماتریس mدرk باشد، بنابراین AB یک ماتریس nدرk خواهد بود، پس:
+
 \setLTR
-
-$Nullity\{ ABC \} = \{x|x\in N(A)\} \cup \{x|x\in N(B)\} \cup \{x|x\in N(C)\}$
-
 $
 \begin{cases}
-	
-	\{x|x\in N(A)\} \subseteq  Nullity\{ A \} \\
-	\{x|x\in N(B)\} \subseteq  Nullity\{ B \} \\
-	\{x|x\in N(C)\} \subseteq  Nullity\{ C \} 
-	
-\end{cases} \linebreak 
-\xrightarrow[]{
-	|X| = X_1 \cup X_2 \cup X_3 \rightarrow |X| \leq |X_1|+|X_2|+|X_3|
-} 
-Nullity\{ ABC \} \leq Nullity\{ A \} + Nullity\{ B \} + Nullity\{ C \}
+	Nullity(A) + Rank(A) = m 
+	Nullity(B) + Rank(B) = k \\
+	Nullity(AB) + Rank(AB) = k
+\end{cases}
 $
-
 \setRTL
 
+با توجه به معادلات بالا:
+
+\setLTR
+$
+	Nullity(B) + Rank(B) = 	Nullity(AB) + Rank(AB) \\ \longrightarrow Nullity(B) + Rank(B) + Nullity(A) + Rank(A) = Nullity(AB) + Rank(AB) + m
+$
+\setRTL
+
+همچنین می‌دانیم که:
+
+\setLTR
+$
+Rank(AB) \leq Rank(B)
+$
+\setRTL
+
+پس درنتیجه:
+
+\setLTR
+$
+\begin{cases}
+	Nullity(B) + Nullity(A) + Rank(A) \geq Nullity(AB) + m \\
+	Rank(A) \leq m
+\end{cases} \longrightarrow 
+Nullity(A) + Nullity(B) \ge Nullity(AB)
+$
+\setRTL
+
+درنهایت خواسته اصلی سوال را اثبات می‌کنیم:
+
+\setLTR
+$
+Nullity(B) + Nullity(C) \ge  Nullity(BC) \\ \longrightarrow  Nullity(A) + Nullity(BC) \leq Nullity(A) + Nullity(B) + Nullity(C) \\ \longrightarrow  Nullity(A(BC)) \leq Nullity(A) + Nullity(B) + Nullity(C) \\ \longrightarrow Nullity(ABC) \leq Nullity(A) + Nullity(B) + Nullity(C)
+$
+\setRTL
 \subsection*{ب}
 
 طبق قضیه‌های از قبل ثابت شده می‌دانیم که:
@@ -87,7 +115,116 @@ $
 \setRTL
 
 \subsection*{ت}
+برای اثبات حکم مسئله ما باید این 3 رابطه را اثبات کنیم:
 
-\textcolor{red}{
-	این بخش رو باید بعدا بزنم
-}
+\setLTR
+\begin{itemize}
+	\item $N(A) = N(A^2) \longrightarrow Range(A) = Range(A^2)$ 
+	\item $ Range(A) = Range(A^2) \longrightarrow Range(A) \cap N(A) = \{0\}$ 
+	\item $Range(A) \cap N(A) = \{0\} \longrightarrow N(A) = N(A^2) $ 
+\end{itemize}
+\setRTL
+
+برای اثبات \textbf{حکم اول} داریم:
+
+\setLTR
+$
+N(A) = N(A^2) \longrightarrow Nullity(A) = Nullity(A^2) \longrightarrow n - Nullity(A) = n - Nullity(A^2)  \longrightarrow  \\ Rank(A) = Rank(A^2) 
+ColumnSpace(AB) \subseteq ColumnSpace(A) \longrightarrow ColumnSpace(A^2) \subseteq ColumnSpace(A)
+$
+\setRTL
+
+می‌دانیم که Rank این دو با هم برابر است، پس می‌توان گفت که اندازه پایه هردوی آن‌ها برابر است، پس پایه‌ی فضای ستونی 
+$A$
+ برابر با پایه‌ی فضای ستونی 
+$A^2$
+است. پس:
+
+\setLTR
+$
+ColumnSpace(A) = ColumnSpace(A^2) \longrightarrow Range(A) = Range(A^2)
+$
+\setRTL
+
+حال برای اثبات \textbf{حکم دومی} از برهان خلف استفاده کرده و فرض می‌کنیم که بردار غیر صفری مثل u وجود دارد که در هر دو وجود دارد و چون u عضوی از فضای ستونی A است، پس برداری همانند v هم وجود دارد که 
+$Av=u$
+باشد. پس:
+
+\setLTR
+$
+u \in N(A) \cap Range(A) \rightarrow u \in N(A) \rightarrow Au = 0 \rightarrow AAv = 0 \rightarrow A^2v=0
+$
+\setRTL
+
+پس v عضوی از NullSpace فضای $A$ است و نه فضای 
+$A^2$
+.
+همچنین می‌دانیم که:
+
+\setLTR
+$
+NullSpace(A) \subseteq NullSpace(A^2)
+$
+\setRTL
+
+پس:
+
+\setLTR
+$
+Nullity(A^2) > Nullity(A) \rightarrow n - Nullity(A^2) < n - Nullity(A) \rightarrow Rank(A^2) < Rank(A) 
+$
+\setRTL
+
+پس در نتیجه 
+$Range(A) \neq Range(A^2)$
+است، پس این تناقض است و قطعا اشتراک این دو برابر با 
+$\{0\}$
+است.
+
+
+در نهایت باید \textbf{حکم سوم} را اثبات کنیم. می‌دانیم که
+$N(A) \subseteq N(A^2)$
+است، پس طبق برهان خلف فرض می‌کنیم که برداری مانند u وجود دارد که در 
+$N(A^2)$
+باشد اما در
+$N(A)$
+نباشد. پس:
+
+\setLTR
+$
+AAu = 0 \longrightarrow A(Au) = 0
+$
+\setRTL
+
+پس بردار 
+$Au$
+عضو 
+$N(A)$
+است و همچنین عضو 
+$ColumnSpace(A)$
+نیز هست. در نتیجه عضو 
+$N(A) \cap R(A)$
+هم هست. و چون طبق بخش قبل اشتراک این دو فقط شامل بردار صفر است:
+
+\setLTR
+$
+Au =0 \longrightarrow u \in N(A) 
+$
+\setRTL
+
+پس با توجه به تناقض به وجود آمده، حکم به کمک برهان خلف اثبات شد.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

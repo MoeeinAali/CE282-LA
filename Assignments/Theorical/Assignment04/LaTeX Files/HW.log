@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  16 MAY 2024 15:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  17 MAY 2024 01:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,58 +1103,84 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(0)/b/n' will be
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/b/n' will be
 (Font)              scaled to size 14.39996pt on input line 14.
 (./questions/1.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 5.
+(Font)              scaled to size 11.99997pt on input line 7.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
-(Font)              scaled to size 8.39998pt on input line 5.
+(Font)              scaled to size 8.39998pt on input line 7.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
-(Font)              scaled to size 5.99998pt on input line 5.
+(Font)              scaled to size 5.99998pt on input line 7.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/bx/n' in size <10> not ava
 ilable
 (Font)              Font shape `TU/XBNiloofar.ttf(1)/b/n' tried instead on inpu
-t line 5.
+t line 7.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/b/n' will be
-(Font)              scaled to size 11.99997pt on input line 5.
+(Font)              scaled to size 11.99997pt on input line 7.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/bx/n' in size <7> not avai
 lable
 (Font)              Font shape `TU/XBNiloofar.ttf(1)/b/n' tried instead on inpu
-t line 5.
+t line 7.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/b/n' will be
-(Font)              scaled to size 8.39998pt on input line 5.
+(Font)              scaled to size 8.39998pt on input line 7.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/bx/n' in size <5> not avai
 lable
 (Font)              Font shape `TU/XBNiloofar.ttf(1)/b/n' tried instead on inpu
-t line 5.
+t line 7.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/b/n' will be
-(Font)              scaled to size 5.99998pt on input line 5.
+(Font)              scaled to size 5.99998pt on input line 7.
 
 
 LaTeX Font Warning: Font shape `TU/XBNiloofar.ttf(1)/m/it' undefined
-(Font)              using `TU/XBNiloofar.ttf(1)/m/n' instead on input line 5.
+(Font)              using `TU/XBNiloofar.ttf(1)/m/n' instead on input line 7.
 
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/it' will be
-(Font)              scaled to size 8.39998pt on input line 5.
+(Font)              scaled to size 8.39998pt on input line 7.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/it' will be
-(Font)              scaled to size 5.99998pt on input line 5.
+(Font)              scaled to size 5.99998pt on input line 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--20
-[][]$[]$[]
+Overfull \hbox (19.78741pt too wide) in paragraph at lines 35--43
+[][]$[] [][]\OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 Nullity\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 A\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 Nullity\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 B\OT1/cmr/m/n/10 ) \U/msa/m/n/10 > \OML/cmm/m/it/10 Nullity\OT1/cmr/m
+/n/10 (\OML/cmm/m/it/10 AB\OT1/cmr/m/n/10 )$ []
  []
 
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(0)/m/n' will be
-(Font)              scaled to size 5.99998pt on input line 46.
-) [1
+(Font)              scaled to size 5.99998pt on input line 74.
+[1
 
-] [2] (./questions/2.tex) [3] (./questions/3.tex
+]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 122.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 123.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 124.
+
+
+Overfull \hbox (17.06049pt too wide) in paragraph at lines 131--136
+[]$\OML/cmm/m/it/10 Rank\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 ) = 
+\OML/cmm/m/it/10 Rank\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 )\OML
+/cmm/m/it/10 ColumnSpace\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 AB\OT1/cmr/m/n/10 ) \
+OMS/cmsy/m/n/10 ^^R \OML/cmm/m/it/10 ColumnSpace\OT1/cmr/m/n/10 (\OML/cmm/m/it/
+10 A\OT1/cmr/m/n/10 ) [][]\OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 ColumnSpace\OT1/c
+mr/m/n/10 (\OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^R \OML/cmm/
+m/it/10 ColumnSpace\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 )$ []
+ []
+
+) [2] (./questions/2.tex
+Missing character: There is no ّ ("651) in font cmmi10!
+) [3] (./questions/3.tex
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(0)/m/n' will be
 (Font)              scaled to size 9.59998pt on input line 97.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
@@ -1177,10 +1203,10 @@ Package rerunfilecheck Info: File `HW.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25427 strings out of 476683
- 482148 string characters out of 5807575
- 1869012 words of memory out of 5000000
- 45170 multiletter control sequences out of 15000+600000
+ 25428 strings out of 476683
+ 482171 string characters out of 5807575
+ 1868012 words of memory out of 5000000
+ 45171 multiletter control sequences out of 15000+600000
  514666 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,14n,101p,1342b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
