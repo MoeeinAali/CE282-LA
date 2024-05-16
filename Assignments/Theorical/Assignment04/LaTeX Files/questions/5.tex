@@ -1,0 +1,71 @@
+
+
+\setLTR
+$
+A^2 = AB + 2I  = A(A-B) = 2I \longrightarrow Dim(2I)=3 \longrightarrow Dim(A(A-B))=3 \\
+Dim(A(A-B))=3 \leq Dim(A) , Dim(A-B) \leq 3 \longrightarrow Dim(A) = Dim(A-B) = 3
+$
+\setRTL
+
+با توجه به این که سطرها و ستون‌های A , B مستقل خطی هستند، پس دو ماتریس A و A-B وارون پذیر هستند.
+درنتیجه 
+ $A^{-1}$
+ وجود دارد. پس دو طرف معادله فوق را در آن ضرب کرده و داریم:
+ 
+ \setLTR
+ $
+A(A-B)=2I \xrightarrow[]{\times A^{-1}}
+A-B=2A^{-1} \longrightarrow A-2A^{-1} = B
+ $
+ \setRTL
+ 
+ معادله فوق ممکنه است جواب داشته باشد یا ممکن است جواب نداشته باشد!
+ 
+  \setLTR
+ $
+ A= \begin{bmatrix}
+ 	a & b & c \\ d & e & f \\ g & h & i
+ 	\end{bmatrix} \longrightarrow
+ 	 A^{-1}= \frac{1}{
+  a(ei-fh)-b(di-fg)+(dh-eg)
+  }\begin{bmatrix}
+  ei-fh & ch-bi & bf-ce \\
+  fg-di & cg-ai & cd-af \\
+  dh-eg & bg-ah & ae-bd
+  \end{bmatrix} \\ \\ \\
+ \begin{cases}
+ 	 A-2A^{-1} = \begin{bmatrix}
+ 		a - \frac{2(ei-fh)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+ 		b - \frac{2(ch-bi)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+ 		c - \frac{2(bf-ce)}{a(ei-fh)-b(di-fg)+(dh-eg)} \\
+ 		d - \frac{2(fg-di)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+ 		e - \frac{2(cg-ai)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+ 		f - \frac{2(cd-af)}{a(ei-fh)-b(di-fg)+(dh-eg)} \\
+ 		g - \frac{2(dh-eg)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+ 		h - \frac{2(bg-ah)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+ 		i - \frac{2(ae-bd)}{a(ei-fh)-b(di-fg)+(dh-eg)} \\
+ 	\end{bmatrix}
+ 	\\ B= \begin{bmatrix}
+ 		-1 & 1 & -1 \\ 0 & -1 & 0 \\ 1 & 2 & -2
+ 	\end{bmatrix}
+ 	\end{cases}
+ $
+ 
+ $
+ \begin{cases}
+ 	 a - \frac{2(ei-fh)}{a(ei-fh)-b(di-fg)+(dh-eg)} = -1 \\ \\
+ 	b - \frac{2(ch-bi)}{a(ei-fh)-b(di-fg)+(dh-eg)} = 1 \\ \\ 
+ 	c - \frac{2(bf-ce)}{a(ei-fh)-b(di-fg)+(dh-eg)} = -1 \\ \\
+ 	d - \frac{2(fg-di)}{a(ei-fh)-b(di-fg)+(dh-eg)} = 0 \\ \\ 
+ 	e - \frac{2(cg-ai)}{a(ei-fh)-b(di-fg)+(dh-eg)} = -1 \\ \\ 
+ 	f - \frac{2(cd-af)}{a(ei-fh)-b(di-fg)+(dh-eg)} = 0 \\ \\ 
+ 	g - \frac{2(dh-eg)}{a(ei-fh)-b(di-fg)+(dh-eg)} = 1 \\ \\ 
+ 	h - \frac{2(bg-ah)}{a(ei-fh)-b(di-fg)+(dh-eg)} = 2 \\ \\
+ 	i - \frac{2(ae-bd)}{a(ei-fh)-b(di-fg)+(dh-eg)} = -2
+ 	\end{cases}
+ $
+ 
+ 
+ \setRTL
+ 
+ حال معادلات فوق را حل می‌کنیم و مجهول‌ها را بدست می‌آوریم.

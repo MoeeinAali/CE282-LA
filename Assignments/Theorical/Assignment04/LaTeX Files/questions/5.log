@@ -1,0 +1,1237 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  15 MAY 2024 12:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**5.tex
+(./5.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+! Undefined control sequence.
+l.3 \setLTR
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 $
+     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+! Undefined control sequence.
+l.8 \setRTL
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (42.54166pt too wide) in paragraph at lines 4--9
+[]$\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (23.36462pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 AB \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (20.73607pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 I \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (26.66673pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (22.53122pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (29.06946pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 I [][]\OMS/cmsy/m/n/10 !
+ []
+
+
+Overfull \hbox (49.29608pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 Dim\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 I\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (23.88892pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 3 [][]\OMS/cmsy/m/n/10 !
+ []
+
+
+Overfull \hbox (51.33784pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 Dim\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 A \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (26.42012pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 )) =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 3[] 
+ []
+
+
+Overfull \hbox (51.33784pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 Dim\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 A \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (26.42012pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 )) =
+ []
+
+
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 3 \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (80.45337pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 Dim\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 )\OML/cm
+m/m/it/10 ; Dim\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (22.53122pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (23.88892pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 3 [][]\OMS/cmsy/m/n/10 !
+ []
+
+
+Overfull \hbox (46.61554pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 Dim\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (39.94893pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 Dim\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (22.53122pt too wide) in paragraph at lines 4--9
+\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 3$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ب
+      ا توجه به این که سطرها و ستون‌های A , B مستقل خطی هستند، پس دو ماتریس ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ط ("637) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ‌ ("200C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no B ("42) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ق ("642) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no خ ("62E) in font nullfont!
+Missing character: There is no ط ("637) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ، ("60C) in font nullfont!
+Missing character: There is no پ ("67E) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no B ("42) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no پ ("67E) in font nullfont!
+Missing character: There is no ذ ("630) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no پ ("67E) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ط ("637) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ع ("639) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ق ("642) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no آ ("622) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ض ("636) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--14
+[]
+ []
+
+
+Overfull \hbox (18.23616pt too wide) in paragraph at lines 10--14
+\OML/cmm/m/it/10 A[]$
+ []
+
+! Undefined control sequence.
+l.15  \setLTR
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16  $
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.17 A(A-B)=2I \xrightarrow
+                           []{\times A^{-1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20  \setRTL
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (46.66673pt too wide) in paragraph at lines 16--21
+[]$\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (22.53122pt too wide) in paragraph at lines 16--21
+\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (57.02791pt too wide) in paragraph at lines 16--21
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 I\OT1/cmr/m/n/10 [][]\OML/cmm/m/it/10 A \OMS/
+cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (18.64232pt too wide) in paragraph at lines 16--21
+\OML/cmm/m/it/10 B \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (42.12508pt too wide) in paragraph at lines 16--21
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 A[] [][]\OMS/cmsy/m/n/10 !
+ []
+
+
+Overfull \hbox (15.27782pt too wide) in paragraph at lines 16--21
+\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (33.79169pt too wide) in paragraph at lines 16--21
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.0868pt too wide) in paragraph at lines 16--21
+\OML/cmm/m/it/10 B$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22  م
+       عادله فوق ممکنه است جواب داشته باشد یا ممکن است جواب نداشته باشد!
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ع ("639) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ق ("642) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ش ("634) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ش ("634) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ش ("634) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ش ("634) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ! ("21) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 22--23
+[]
+ []
+
+! Undefined control sequence.
+l.24   \setLTR
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25  $
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26  A= \begin{bmatrix}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.27  ^^Ia &
+             b & c \\ d & e & f \\ g & h & i
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.27  ^^Ia & b &
+                 c \\ d & e & f \\ g & h & i
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.27  ^^Ia & b & c \\ d &
+                          e & f \\ g & h & i
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.27  ^^Ia & b & c \\ d & e &
+                              f \\ g & h & i
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.27  ^^Ia & b & c \\ d & e & f \\ g &
+                                       h & i
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.27  ^^Ia & b & c \\ d & e & f \\ g & h &
+                                           i
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28  ^^I\end{bmatrix}
+                       \longrightarrow
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31   }\begin{bmatrix}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.32   ei-fh &
+               ch-bi & bf-ce \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.32   ei-fh & ch-bi &
+                       bf-ce \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.33   fg-di &
+               cg-ai & cd-af \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.33   fg-di & cg-ai &
+                       cd-af \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.34   dh-eg &
+               bg-ah & ae-bd
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.34   dh-eg & bg-ah &
+                       ae-bd
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35   \end{bmatrix}
+                     \\ \\ \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37  ^^I A-2A^{-1} = \begin{bmatrix}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.38 ...rac{2(ei-fh)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.39 ...rac{2(ch-bi)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.41 ...rac{2(fg-di)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.42 ...rac{2(cg-ai)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.44 ...rac{2(dh-eg)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.45 ...rac{2(bg-ah)}{a(ei-fh)-b(di-fg)+(dh-eg)} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{cases} on input line 36 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47  ^^I\end{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48  ^^I\\ B= \begin{bmatrix}
+                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.49  ^^I^^I-1 &
+                 1 & -1 \\ 0 & -1 & 0 \\ 1 & 2 & -2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.49  ^^I^^I-1 & 1 &
+                     -1 \\ 0 & -1 & 0 \\ 1 & 2 & -2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.49  ^^I^^I-1 & 1 & -1 \\ 0 &
+                               -1 & 0 \\ 1 & 2 & -2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.49  ^^I^^I-1 & 1 & -1 \\ 0 & -1 &
+                                    0 \\ 1 & 2 & -2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.49  ^^I^^I-1 & 1 & -1 \\ 0 & -1 & 0 \\ 1 &
+                                             2 & -2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.49  ^^I^^I-1 & 1 & -1 \\ 0 & -1 & 0 \\ 1 & 2 &
+                                                 -2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{cases} on input line 36 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50  ^^I\end{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (38.05553pt too wide) in paragraph at lines 25--53
+[]$\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (13.9051pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 abc[] 
+ []
+
+
+Overfull \hbox (15.83339pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 def[] 
+ []
+
+
+Overfull \hbox (33.22408pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 ghi [][]\OMS/cmsy/m/n/10 !
+ []
+
+
+Overfull \hbox (28.79167pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (124.63167pt too wide) in paragraph at lines 25--53
+[]\OML/cmm/m/it/10 ei \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (29.60078pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 fhch \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (25.7785pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 bibf \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (8.98383pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 ce[] 
+ []
+
+
+Overfull \hbox (18.87852pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 fg \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (25.88382pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 dicg \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (26.04124pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 aicd \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (11.25815pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 af[] 
+ []
+
+
+Overfull \hbox (18.74425pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 dh \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (26.98265pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 egbg \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (28.76743pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 ahae \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (9.49652pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 bd[] 
+ []
+
+
+Overfull \hbox (23.14445pt too wide) in paragraph at lines 25--53
+[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (33.79169pt too wide) in paragraph at lines 25--53
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (13.06369pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (120.82193pt too wide) in paragraph at lines 25--53
+[]\OML/cmm/m/it/10 b \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (120.85783pt too wide) in paragraph at lines 25--53
+[]\OML/cmm/m/it/10 c \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (108.75247pt too wide) in paragraph at lines 25--53
+[][] 
+ []
+
+
+Overfull \hbox (12.98267pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 d \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (121.18654pt too wide) in paragraph at lines 25--53
+[]\OML/cmm/m/it/10 e \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (122.50253pt too wide) in paragraph at lines 25--53
+[]\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (108.75247pt too wide) in paragraph at lines 25--53
+[][] 
+ []
+
+
+Overfull \hbox (12.90627pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 g \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (122.29185pt too wide) in paragraph at lines 25--53
+[]\OML/cmm/m/it/10 h \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.9754pt too wide) in paragraph at lines 25--53
+[]\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (108.75247pt too wide) in paragraph at lines 25--53
+[][] 
+ []
+
+
+Overfull \hbox (18.64232pt too wide) in paragraph at lines 25--53
+\OML/cmm/m/it/10 B \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (25.55563pt too wide) in paragraph at lines 25--53
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 11 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 25--53
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 25--53
+\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 25--53
+\OT1/cmr/m/n/10 10[] 
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 25--53
+\OT1/cmr/m/n/10 12 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 25--53
+\OT1/cmr/m/n/10 2$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54  $
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (40.93033pt too wide) in paragraph at lines 54--67
+[]$[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.30798pt too wide) in paragraph at lines 54--67
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 54--67
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (12.06946pt too wide) in paragraph at lines 54--67
+\OML/cmm/m/it/10 b \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.30798pt too wide) in paragraph at lines 54--67
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 54--67
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (12.10536pt too wide) in paragraph at lines 54--67
+\OML/cmm/m/it/10 c \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.30798pt too wide) in paragraph at lines 54--67
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 54--67
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (12.98267pt too wide) in paragraph at lines 54--67
+\OML/cmm/m/it/10 d \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.30798pt too wide) in paragraph at lines 54--67
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 54--67
+\OT1/cmr/m/n/10 0[] 
+ []
+
+
+Overfull \hbox (12.43407pt too wide) in paragraph at lines 54--67
+\OML/cmm/m/it/10 e \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.30798pt too wide) in paragraph at lines 54--67
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 54--67
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (13.75006pt too wide) in paragraph at lines 54--67
+\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.30798pt too wide) in paragraph at lines 54--67
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 54--67
+\OT1/cmr/m/n/10 0[] 
+ []
+
+
+Overfull \hbox (12.90627pt too wide) in paragraph at lines 54--67
+\OML/cmm/m/it/10 g \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.30798pt too wide) in paragraph at lines 54--67
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 54--67
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (13.53938pt too wide) in paragraph at lines 54--67
+\OML/cmm/m/it/10 h \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.30798pt too wide) in paragraph at lines 54--67
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 54--67
+\OT1/cmr/m/n/10 2[] 
+ []
+
+
+Overfull \hbox (11.22293pt too wide) in paragraph at lines 54--67
+\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (119.30798pt too wide) in paragraph at lines 54--67
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 54--67
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2$ 
+ []
+
+! Undefined control sequence.
+l.69  \setRTL
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71  ح
+       ال معادلات فوق را حل می‌کنیم و مجهول‌ها را بدست می‌آوریم.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ع ("639) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ق ("642) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ‌ ("200C) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ‌ ("200C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ‌ ("200C) in font nullfont!
+Missing character: There is no آ ("622) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+)
+! Emergency stop.
+<*> 5.tex
+         
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 19 strings out of 476683
+ 319 string characters out of 5807575
+ 1847012 words of memory out of 5000000
+ 20367 multiletter control sequences out of 15000+600000
+ 512287 words of font info for 32 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 18i,7n,12p,134b,66s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.

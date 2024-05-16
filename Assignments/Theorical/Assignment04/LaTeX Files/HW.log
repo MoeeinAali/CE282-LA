@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  14 MAY 2024 14:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  15 MAY 2024 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1154,7 +1154,18 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(0)/m/n' will be
 (Font)              scaled to size 5.99998pt on input line 46.
 ) [1
 
-] [2] (./questions/2.tex) [3] (./questions/3.tex) [4] (./HW.aux)
+] [2] (./questions/2.tex) [3] (./questions/3.tex
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(0)/m/n' will be
+(Font)              scaled to size 9.59998pt on input line 97.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
+(Font)              scaled to size 9.59998pt on input line 97.
+) [4] (./questions/4.tex)
+[5] (./questions/5.tex
+Overfull \hbox (40.66031pt too wide) in paragraph at lines 25--53
+[]$[]$ []
+ []
+
+) [6] (./HW.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1162,12 +1173,12 @@ Package rerunfilecheck Info: File `HW.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25411 strings out of 476683
- 481726 string characters out of 5807575
- 1860012 words of memory out of 5000000
- 45162 multiletter control sequences out of 15000+600000
- 514650 words of font info for 79 fonts, out of 8000000 for 9000
+ 25427 strings out of 476683
+ 482148 string characters out of 5807575
+ 1869012 words of memory out of 5000000
+ 45170 multiletter control sequences out of 15000+600000
+ 514666 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,12n,101p,1342b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,14n,101p,1342b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on HW.pdf (4 pages).
+Output written on HW.pdf (6 pages).
