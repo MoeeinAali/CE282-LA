@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  17 MAY 2024 01:42
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  19 MAY 2024 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1191,10 +1191,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
  []
 
 ) [5] (./questions/5.tex
-Overfull \hbox (40.66031pt too wide) in paragraph at lines 25--53
-[]$[]$ []
- []
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 \end{cases} $\longrightarrow
+                                 $ AB = BA
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no َ ("64E) in font cmmi10!
 ) [6] (./HW.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
