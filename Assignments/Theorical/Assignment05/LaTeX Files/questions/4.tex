@@ -1,0 +1,92 @@
+\subsubsection*{الف}
+
+در ابتدا می‌دانیم که:
+
+\setLTR
+$
+\frac{\partial det(X^n)}{\partial X} = \frac{\partial det(X^n)}{\partial det(X)} \times \frac{\partial det(X)}{\partial X}
+$
+\setRTL
+
+پس:
+
+\setLTR
+$
+\frac{\partial det(X^n)}{\partial det(X^{n-1})} \times \frac{\partial det(X)}{\partial X} =  \frac{\partial det(X)^n}{\partial det(X)} \times  \frac{\partial det(X)}{\partial X} = n\times det(X)^{n-1} \frac{\partial det(X)}{\partial X} 
+$
+\setRTL
+
+همچنین می‌دانیم که:
+
+\setLTR
+$
+\frac{\partial y}{\partial X} = \begin{bmatrix}
+	\frac{\partial y}{\partial x_{11}} & \frac{\partial y}{\partial x_{21}} & \dots & \frac{\partial y}{\partial x_{n1}} \\
+	\frac{\partial y}{\partial x_{12}} & \frac{\partial y}{\partial x_{22}} & \dots & \frac{\partial y}{\partial x_{n2}} \\
+	\vdots &\vdots &\vdots &\vdots \\
+	\frac{\partial y}{\partial x_{1q}} & \frac{\partial y}{\partial x_{2q}} & \dots & \frac{\partial y}{\partial x_{nm}} \\
+	
+	
+\end{bmatrix}
+$
+\setRTL
+
+
+حال با توجه به رابطه بالا 
+$\frac{\partial det(X)}{\partial X_{ij}}$
+را حساب می‌کنیم:
+
+\setLTR
+$
+\frac{\partial det(X)}{\partial X_{ij}} = \frac{\partial \sum_{k=1}^{n}(-1)^{i+k}X_{ik}det(X_{\backslash i \backslash j})}{\partial X_{ij}} = (-1)^{i+j} det(X_{\backslash i \backslash j}) = C_{ij}
+ $
+\setRTL
+
+در تمامی ستون‌ها به جز j سطر مقدار i حذف می‌شود. پس این مقدار به 
+$َA_{ij}$
+وابسته نیست. پس درنتیجه:
+
+\setLTR
+$
+\frac{\partial det(X)}{\partial X} = C^T
+$
+\setRTL
+
+از طرفی می دانیم که:
+
+\setLTR
+$
+|A|A^{-1} = C^T
+$
+\setRTL
+
+بنابراین داریم:
+
+\setLTR
+$
+\frac{\partial det(X^n)}{\partial X} = n \times det(X^{n-1})\frac{\partial det(X)}{\partial X} = n \times det(X^{n-1})C^T = n \times det(X^n)X^{-1}
+$
+\setRTL
+
+\subsubsection*{ب}
+
+\setLTR
+$
+\frac{\partial det(A(t))}{\partial t} = \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial det(A(t))}{\partial A_{ij}} \times \frac{\partial A_{ij}}{\partial t} = \sum_{i=1}^{n} \sum_{j=1}^{n} C_{ij} \frac{\partial A_{ij}}{\partial t} = tr(C^T\frac{\partial A(t)}{\partial t})
+$
+\setRTL
+از طرفی می دانیم که:
+
+\setLTR
+$
+|A|A^{-1} = C^T
+$
+\setRTL
+
+پس:
+
+\setLTR
+$
+ tr(C^T\frac{\partial A(t)}{\partial t}) = tr(|A(t)|A(t)^{-1}\frac{\partial A(t)}{\partial t}) = |A(t)|tr(A(t)^{-1}\frac{\partial A(t)}{\partial t}) = det(A(t)) \times tr(A(t)^{-1}\frac{\partial A(t)}{\partial t})
+$
+\setRTL

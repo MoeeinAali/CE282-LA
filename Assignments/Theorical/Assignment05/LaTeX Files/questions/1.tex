@@ -1,0 +1,51 @@
+می‌دانیم که ماتریس‌های مربعی برای وارون‌پذیر بودن باید دارای ستون‌های مستقل خطی باشند. با استفاده از برهان خلف فرض می‌کنیم این ستون‌ها مستقل خطی نیستند. یعنی 
+$\lambda_1 ... \lambda_n$
+وجود دارند به طوری که 
+$\lambda_1A_1 + ... + \lambda_nA_n = 0$
+
+
+می‌دانیم که:
+
+\setLTR
+$
+\sum_{i=1}^{n}\sum_{j=1}^{n} \lambda_iA_{ji} = (1+..+n)(\lambda_1+...+\lambda_n)=0\longrightarrow
+\lambda_1+...+\lambda_n = 0
+$
+\setRTL
+
+فرض می‌کنیم که 
+$\lambda_i$
+مخالف صفر باشد و 
+$i \neq n$
+است.
+
+حال با توجه به عبارت مقابل:
+
+\setLTR
+$
+\lambda_1A_1+...+\lambda_{i-1}A_{i-1}+\lambda_{i}A_i+...\lambda_nA_n = \lambda_i
+\begin{bmatrix}
+	i \\
+	i-1 \\
+	\vdots \\
+	n \\
+	n-1 \\
+	\vdots \\
+	i +1 \\
+\end{bmatrix} + ... + \lambda_n
+\begin{bmatrix}
+	n \\
+	n-1 \\
+	\vdots \\
+	1
+\end{bmatrix} = 0 \\ \xrightarrow{i , i+1} \begin{cases}
+\lambda_i \times 1 + \lambda_{i+1} \times 2 + ... + + \lambda_{n} \times (n-i+1) = 0 \\
+\lambda_i \times n +...+ \lambda_{n} \times (n-i) = 0
+\end{cases} \xrightarrow{-} -n\lambda_i + \sum_{k=i}^{n} \lambda_k = 0 \xrightarrow{} -n\lambda_i =0 \\ \longrightarrow \lambda_i = 0
+$
+\setRTL
+
+
+به تناقض رسیدیم که 
+$\lambda_i = 0$
+پس حکم اثبات می‌شود.

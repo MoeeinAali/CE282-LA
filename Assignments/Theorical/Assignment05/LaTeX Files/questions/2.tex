@@ -1,0 +1,35 @@
+در سطر آخر شروع کرده و ‌از هر سطر مقدار 
+$x_1$
+برابر سطر قبل را از آن کم کرده و ماتریس جدیدی را بدست می‌آوریم.
+
+\setLTR
+$
+\begin{vmatrix}
+	1 & 1 & \dots & 1 \\
+	0& x_2 - x_1 & \dots & x_n - x_1 \\
+	\vdots & \vdots & \vdots & \vdots \\
+	0 & x_2^{n-1} - x_1x_2^{n-2} & \dots & x_n^{n-1}-x_1x_n^{n-2}
+\end{vmatrix} \\
+ = \begin{vmatrix}
+x_2 - x_1 & \dots & x_n - x_1 \\
+\vdots & \vdots & \vdots \\
+x_2^{n-1}-x_1x_2^{n-2} & \dots & x_n^{n-1}-x_1x_n^{n-2}
+\end{vmatrix} \\ \\ \\= 
+(\prod_{j=2}^{n}(x_j-x_1)) \begin{vmatrix}
+	1 & 1 & \dots & 1 \\
+	x_2 & x_3 & \dots & x_n \\
+	\vdots & \vdots & \vdots & \vdots \\
+	x_1^{n-2} & x_2^{n-2} & \dots & x_n^{n-2}
+\end{vmatrix}
+$
+\setRTL
+
+همانطور که مشخص است این دترمینان یک ماتریس وندرموند 
+$n-1$
+است، پس اگر این مراحل را تکرار کنیم به عبارت مقابل می‌رسیم:
+
+\setLTR
+$
+(\prod_{j=2}^{n}(x_j-x_1))(\prod_{1< i < j \leq n}(x_j-x_i)) = \prod_{1\leq i < j \leq n} (x_j - x_i)
+$
+\setRTL
