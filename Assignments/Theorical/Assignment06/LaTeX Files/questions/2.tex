@@ -1,0 +1,12 @@
+طبق تعاریف، رابطه فوق را ساده می‌کنیم:
+
+\setLTR
+$
+\Vert W_1(Ax-b)\Vert^2_2 + \Vert W_2(x-c)\Vert^2_2 \xrightarrow{\Vert u \Vert_2^2 = u^Tu}
+(W_1(Ax-b))^T(W_1(Ax-b)) + (W_2(x-c))^T(W_2(x-c)) \\
+\xrightarrow{(AB)^T=B^TA^T}(Ax-b)^TW_1^TW_1(Ax-b) + (x-c)^TW_2^TW_2(x-c) = h(x) \\ \\
+\triangledown h(x) = 2A^TW_1^TW_1(Ax-b)+2W_2^TW_2(x-c)=0 \\
+\longrightarrow (A^TW_1^TW_1A+W_2^TW_2)x - A^TW_1^TW_1b+W_2^TW_2c \\ \longrightarrow
+x = (A^TW_1^TW_1A+W_2^TW_2)^{-1}(A^TW_1^TW_1b+W_2^TW_2c)
+$
+\setRTL

@@ -1,0 +1,26 @@
+\subsubsection*{الف}{
+با توجه به قاعده زنجیری داریم:
+
+\setLTR
+$
+\frac{\partial \alpha}{\partial z} = \frac{\partial \alpha}{\partial y}\frac{\partial y}{\partial z} + \frac{\partial \alpha}{\partial x}\frac{\partial x}{\partial z}  \\ \\ \longrightarrow 
+\begin{cases}
+	\frac{\partial \alpha}{\partial y} = \frac{\partial y^TAx}{\partial y} = (Ax)^T = x^TA^T \\
+	\frac{\partial \alpha}{\partial x} = \frac{\partial y^TAx}{\partial x} = y^TA
+\end{cases} \longrightarrow
+\frac{\partial \alpha}{\partial z} = x^TA^T\frac{\partial y}{\partial z}+y^TA\frac{\partial x}{\partial z}
+$
+\setRTL
+}
+\subsubsection*{ب}{
+	می‌دانیم که $tr(AB) = tr(BA)$ ،پس:
+	
+\setLTR
+$
+\frac{\partial tr[AXBXC^T]}{\partial X} = \frac{ tr[\partial(AXBXC^T)]}{\partial X} =
+\frac{ tr[\partial(AX)BXC^T]}{\partial X} + \frac{ tr[AX\partial(BXC^T)]}{\partial X} = \frac{ tr[BXC^TA\partial(X)]}{\partial X} + 
+\frac{ tr[C^TAXB\partial(X)]}{\partial X} \\ \\ \longrightarrow
+\frac{\partial tr[AXBXC^T]}{\partial X} = BXC^TA+C^TAXB
+$
+\setRTL
+}

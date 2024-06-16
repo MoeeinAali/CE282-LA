@@ -1,0 +1,17 @@
+\setLTR
+$
+p = \frac{vv^T}{v^Tv}\longrightarrow \begin{cases}
+	p^T=p \\
+	p^2 = p
+\end{cases} \\
+I - \frac{vv^T}{v^Tv} = I - p \xrightarrow{\Vert A\Vert_F = \sqrt{tr(AA^T)}}
+\Vert E(I-p) \Vert^2_F = tr(E(I-p)(E(I-p))^T) \\ \\ 
+\Vert E(I-p) \Vert^2_F = tr((E-E\frac{vv^T}{v^Tv})(E-E\frac{vv^T}{v^Tv})^T) =
+tr((E-E\frac{vv^T}{v^Tv})(E^T-\frac{vv^T}{v^Tv}E^T)) \\ \\
+ \longrightarrow tr(EE^T-E\frac{vv^T}{v^Tv}E^T-E\frac{vv^T}{v^Tv}E^T+EE^T(\frac{vv^T}{v^Tv})^2) =
+tr(EE^T-2EPE^T+EPE^T) \\  \\
+  \longrightarrow tr(EE^T-EpE^T) = tr(EE^T) - tr(EPE^T) \\\\
+ \xrightarrow{tr(EpE^T)=tr(pE^TE)=\frac{1}{v^Tv}v^TE^TEv=\frac{1}{v^Tv}\Vert Ev\Vert^2} = tr(EE^T) - \frac{\Vert Ev\Vert^2}{v^Tv} \\ \longrightarrow
+ \Vert E(I-p)\Vert^2_F=\Vert E\Vert^2_F - \frac{\Vert Ev\Vert^2}{v^Tv}
+$
+\setRTL
