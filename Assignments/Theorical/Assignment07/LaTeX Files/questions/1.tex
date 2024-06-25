@@ -1,0 +1,149 @@
+با توجه به این که ماتریس‌های ما $Orthonormal$ نیستند، کمی ماتریس‌ها را تغییر می‌دهیم:
+
+\setLTR
+$
+A = U \Sigma V^T
+= \frac{1}{3} 
+\begin{bmatrix}
+2 & 2 & -1 \\	
+x & 2 & 2 \\
+2 & -1 & 2
+\end{bmatrix}
+\begin{bmatrix}
+5 & 0\\
+0 & \frac{5}{3} \\
+0 & 0
+\end{bmatrix}
+\frac{1}{5}
+\begin{bmatrix}
+4 & -3 \\
+3 & y
+\end{bmatrix}
+$
+\setRTL
+
+\subsection*{الف}
+
+باتوجه به این که $U$ و $V$ دارای ستون‌های $Orthogonal$ هستند، داریم:
+
+\setLTR
+$
+\begin{cases}
+u_1.u_2=(2,x,2).(2,2,-1) = 2x+2 = 0 \longrightarrow x=-1 \\
+v_1.v_2 = (4,-3).(3,y) = 12 - 3y = 0 \longrightarrow y =4 
+\end{cases}
+$
+\setRTL
+
+\subsubsection*{ب}
+
+با توجه به این که ماتریس $\sigma$ در قطر اصلی خود دارای 2 مقدار ناصفر متمایز است، پس دارای رنک 2 است. 
+
+همچنین مقدار ویژه‌ها برابر با مربع اعداد روی قطر اصلی هستند، پس مقادیر ویژه برابر هستند با $25$ و $\frac{25}{9}$.
+
+برای بردار ویژه‌ی $AA^T$ نیز می‌توان یکی از ستون‌های ناصفر $U$ را مثال زد. به عنوان مثال: 
+$(\frac{2}{3},\frac{2}{3},\frac{-1}{3})$
+
+\subsection*{پ}
+
+\setLTR
+$
+Av_i=\sigma_uU_i \longrightarrow A(cv_i) = c\sigma_iv_i \longrightarrow 
+\begin{bmatrix}
+	4 \\
+	-3
+\end{bmatrix} = 5v_1
+\\
+Av_1=\sigma_1U_1\longrightarrow A(5v_1)=5Av_1=5\sigma_1U_1 = 5\times5\times\frac{1}{3}\begin{bmatrix}
+2 \\
+-1 \\
+2
+\end{bmatrix} = \begin{bmatrix}
+\frac{50}{3} \\
+\frac{-25}{3} \\
+\frac{50}{3	}
+\end{bmatrix}
+$
+
+\setRTL
+
+\subsection*{ث}
+
+ماتریس را SVD کرده و سپس مقدار بیشینه را محاسبه می‌کنیم:
+
+\setLTR
+$
+A = U\Sigma V^T \rightarrow \|Av\| = \| U\Sigma V^Tv\| = \sqrt[]{v^TV\Sigma^TU^TU\Sigma V^Tv} = \sqrt[]{(V^Tv)^T\Sigma^T\Sigma V^Tv} \\
+\longrightarrow \sqrt[]{\sum_{i=n}^{n}((V^Tv)^T\Sigma^T\Sigma)_{1i}(V^Tv)_{i}} = \sqrt[]{\sum_{i=1}^{n}(V^Tv)^T_{i}\lambda_i(V^Tv)_{i}} = 
+\sqrt[]{\sum_{i=1}^{n}\lambda_iv^TVV^Tv} = 
+\sqrt[]{\sum_{i=1}^{n}\lambda_iv^T_iv_i} \\
+= \sqrt[]{\sum_{i=1}^{n}\lambda_iv_i^2} \leq \sqrt[]{\sum_{i=1}^{n}\lambda_{max}v_i^2} =
+= \sqrt[]{\lambda_{max}\sum_{i=1}^{n}v^2_i} = \sqrt[]{\lambda_{max}}\|v\| \\ \longrightarrow
+\frac{\|Av\|}{\|v\|}\leq \frac{\sqrt[]{\lambda_{max}}\|v\|}{\|v\|} = \sqrt[]{\lambda_{max}} = \sigma_{max}
+$
+\setRTL
+
+پس اگر $v$ما برابر با $e_i$ باشد:
+
+\setLTR
+$
+\frac{\|Av\|}{\|v\|} = \sqrt[]{\sum_{i=1}^{n}\lambda_iv_i^2} = \sqrt[]{\lambda_i} = \sigma_i
+$
+\setRTL
+
+پس این مقدار فقط به ازای 
+$ke_i$
+و 
+$\sigma_{max}$
+برابر با $\sigma_i$ رخ می‌دهد.
+
+\setLTR
+$
+\sigma_{max} = 5 \ , \
+v= \begin{bmatrix}
+	1 \\
+	0
+\end{bmatrix}
+$
+\setRTL
+
+
+
+\subsection*{ج}
+
+\setLTR
+$
+A=U\Sigma V^T \longrightarrow A^+=V\Sigma^+U^T \\ \\
+\Sigma^+ = \begin{bmatrix}
+\frac{1}{5} & 0 & 0 \\
+0 & \frac{3}{5} & 0
+\end{bmatrix}\\
+A^+ = \frac{1}{5}\begin{bmatrix}
+	4 & 3 \\
+	-3 & 4
+\end{bmatrix} \times \frac{1}{5} \begin{bmatrix}
+1 & 0 & 0 \\
+0 & 3 & 0
+\end{bmatrix}
+\times \frac{1}{3} \begin{bmatrix}
+2 & -1 &  2 \\
+2 & 2 & -1 \\
+-1 & 2 & 2 
+\end{bmatrix} = 
+\frac{1}{75} \begin{bmatrix}
+26 & 14 & -1 \\
+18 & 27 & -18  
+\end{bmatrix}
+$
+\setRTL
+
+
+
+
+
+
+
+
+
+
+

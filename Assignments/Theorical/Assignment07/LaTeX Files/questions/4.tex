@@ -1,0 +1,49 @@
+\subsection*{الف}
+می‌دانیم که ضرب بردارهای $U , V$ در یک بردار دیگر مقدار $norm2$ را تغییر نمی‌دهد. پس:
+
+\setLTR
+$
+\|Tv\| = \|U\Sigma V^Tv\| = \| \Sigma V^Tv\| \xrightarrow{V^Tv = X} \| \begin{bmatrix}
+\sigma_1x_1 \\
+\sigma_2x_2 \\
+\vdots \\
+\sigma_nx_n \\
+\end{bmatrix} \| = \sqrt[]{\sigma_1^2x_1^2 + ... + \sigma_n^2x^2_n} \\ \longrightarrow
+\| v\| = \| V^Tv\| = \| X\| = \| \begin{bmatrix}
+x_1 \\
+x_2\\
+\vdots \\
+x_n
+\end{bmatrix} \| = \sqrt[]{x_1^2 +...+x_n^2} \\ \\
+\forall i: \sigma_i=\sigma_{min}= \hat{s} \longrightarrow \|Tv\| =  \sqrt[]{\sigma_1^2x_1^2 + ... + \sigma_n^2x^2_n} \ge  \sqrt[]{\hat{s}^2x_1^2 + ... + \hat{s}^2x^2_n} = \hat{s} \  \sqrt[]{x_1^2 +...+x_n^2} = \hat{s}\|v\|
+\\
+\forall i: \sigma_i=\sigma_{max}= s \longrightarrow \|Tv\| =  \sqrt[]{\sigma_1^2x_1^2 + ... + \sigma_n^2x^2_n} \le  \sqrt[]{s^2x_1^2 + ... +s^2x^2_n} = \hat{s} \  \sqrt[]{x_1^2 +...+x_n^2} = s\|v\| \\
+\longrightarrow \hat{s} \|v\| \leq \|Tv\| \leq s\|v\|
+$
+\setRTL
+
+\subsection*{ب}
+
+فرض می‌کنیم که بردار ویژه‌ی متناظر با $\lambda$ برابر است با $v$:
+
+\setLTR
+$
+Tv = \lambda v \longrightarrow \| Tv\| = \| \lambda v \| = \|\lambda \| \| v\| \\$
+\setRTL
+
+با توجه به قسمت قبل داریم:
+
+\setLTR
+$
+\hat{s}\|v\| \leq \| Tv \| \leq s \|v\| \longrightarrow \hat{s}\|v\| \leq \|\lambda \| \| v\| \leq s\|v\| \longrightarrow \hat{s}\ \leq |\lambda| \leq s
+$
+\setRTL
+
+
+
+
+
+
+
+
+

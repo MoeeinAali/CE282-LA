@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  23 JUN 2024 21:46
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  25 JUN 2024 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1102,23 +1102,70 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(0)/b/n' will be
 (Font)              scaled to size 14.39996pt on input line 15.
 LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/b/n' will be
 (Font)              scaled to size 14.39996pt on input line 15.
-(./questions/1.tex)
-LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 18.
- [1
+(./questions/1.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
-] (./questions/2.tex) [2] (./questions/3.tex) [3]
-(./questions/4.tex) [4] (./HW.aux)
+(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
+(Font)              scaled to size 11.99997pt on input line 1.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
+(Font)              scaled to size 8.39998pt on input line 1.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/n' will be
+(Font)              scaled to size 5.99998pt on input line 1.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/bx/n' in size <10> not ava
+ilable
+(Font)              Font shape `TU/XBNiloofar.ttf(1)/b/n' tried instead on inpu
+t line 1.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/b/n' will be
+(Font)              scaled to size 11.99997pt on input line 1.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/bx/n' in size <7> not avai
+lable
+(Font)              Font shape `TU/XBNiloofar.ttf(1)/b/n' tried instead on inpu
+t line 1.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/b/n' will be
+(Font)              scaled to size 8.39998pt on input line 1.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/bx/n' in size <5> not avai
+lable
+(Font)              Font shape `TU/XBNiloofar.ttf(1)/b/n' tried instead on inpu
+t line 1.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/b/n' will be
+(Font)              scaled to size 5.99998pt on input line 1.
+
+
+LaTeX Font Warning: Font shape `TU/XBNiloofar.ttf(1)/m/it' undefined
+(Font)              using `TU/XBNiloofar.ttf(1)/m/n' instead on input line 1.
+
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/it' will be
+(Font)              scaled to size 8.39998pt on input line 1.
+LaTeX Font Info:    Font shape `TU/XBNiloofar.ttf(1)/m/it' will be
+(Font)              scaled to size 5.99998pt on input line 1.
+[1
+
+]) [2] (./questions/2.tex) [3] (./questions/3.tex) [4] (./questions/4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+[][]
+ []
+
+) [5] (./HW.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `HW.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25365 strings out of 476683
- 480526 string characters out of 5807575
- 1846012 words of memory out of 5000000
- 45131 multiletter control sequences out of 15000+600000
- 512911 words of font info for 66 fonts, out of 8000000 for 9000
+ 25412 strings out of 476683
+ 481639 string characters out of 5807575
+ 1873012 words of memory out of 5000000
+ 45161 multiletter control sequences out of 15000+600000
+ 514642 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,5n,101p,1342b,339s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,101p,1342b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on HW.pdf (4 pages).
+Output written on HW.pdf (5 pages).
